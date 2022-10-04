@@ -26,6 +26,8 @@
 		44973F0528ECC2330028F54F /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0428ECC2330028F54F /* Tickets.swift */; };
 		44973F0728ECD1EC0028F54F /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0628ECD1EC0028F54F /* TabData.swift */; };
 		44973F0928ECD5580028F54F /* CustomeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0828ECD5580028F54F /* CustomeTabBar.swift */; };
+		44973F0B28ECD99D0028F54F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0A28ECD99D0028F54F /* HomeView.swift */; };
+		44973F0D28ECDAAE0028F54F /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0C28ECDAAE0028F54F /* CustomSearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		44973F0428ECC2330028F54F /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		44973F0628ECD1EC0028F54F /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		44973F0828ECD5580028F54F /* CustomeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabBar.swift; sourceTree = "<group>"; };
+		44973F0A28ECD99D0028F54F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		44973F0C28ECDAAE0028F54F /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 				44973EE828EA2EDE0028F54F /* CircleBackground.swift */,
 				44973EEA28EA2F050028F54F /* StatusUI.swift */,
 				44973F0828ECD5580028F54F /* CustomeTabBar.swift */,
+				44973F0C28ECDAAE0028F54F /* CustomSearchBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				44973EDB28EA2C330028F54F /* ContentView.swift */,
 				44973ED928EA2C330028F54F /* YourMovieApp.swift */,
 				44973EFF28EA31900028F54F /* TicketView.swift */,
+				44973F0A28ECD99D0028F54F /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,7 +237,9 @@
 				44973F0328EA39B00028F54F /* Ticket.swift in Sources */,
 				44973EDA28EA2C330028F54F /* YourMovieApp.swift in Sources */,
 				44973EFB28EA30DE0028F54F /* RoundButton.swift in Sources */,
+				44973F0B28ECD99D0028F54F /* HomeView.swift in Sources */,
 				44973F0728ECD1EC0028F54F /* TabData.swift in Sources */,
+				44973F0D28ECDAAE0028F54F /* CustomSearchBar.swift in Sources */,
 				44973EF328EA307A0028F54F /* LargeButton.swift in Sources */,
 				44973EF928EA30C30028F54F /* CircleButton.swift in Sources */,
 				44973EEB28EA2F050028F54F /* StatusUI.swift in Sources */,

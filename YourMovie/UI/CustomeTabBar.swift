@@ -4,7 +4,7 @@ struct CustomTabBar: View {
     @Binding var currentTab: Tab
     
     var backgroundColors: [Color] = [Color("purple"),Color("lightBlue"), Color("pink")]
-    var gradientCircle: [Color] = [Color("cyan"),Color("cyan").opacity(0.1), Color("cyan")]
+//    var gradientCircle: [Color] = [Color("cyan"),Color("cyan").opacity(0.1), Color("cyan")]
     
     var body: some View {
         GeometryReader { geometry in
@@ -29,13 +29,13 @@ struct CustomTabBar: View {
             .background(alignment: .leading) {
                 Circle()
                     .fill(.ultraThinMaterial)
-                    .frame(width: 80, height: 80)
+                    .frame(width: 75, height: 80)
                     .shadow(color: .black.opacity(0.25), radius: 20, x: 0, y: 10)
                     .offset(x: indicatorOffset(width: width), y: -17)
                     .overlay(
                         Circle()
-                            .trim(from: 0, to: CGFloat(0.5))
-                            .stroke(LinearGradient(colors: gradientCircle, startPoint: .top, endPoint: .bottom), style: StrokeStyle(lineWidth: 2))
+                            .trim(from: 0, to: CGFloat(0.54))
+                            .stroke(LinearGradient(colors: [Color.purple.opacity(0.5)], startPoint: .top, endPoint: .bottom), style: StrokeStyle(lineWidth: 2))
                             .rotationEffect(.degrees(135))
                             .frame(width: 78, height: 78)
                             .offset(x: indicatorOffset(width: width), y: -17)

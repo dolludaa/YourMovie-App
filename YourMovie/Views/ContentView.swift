@@ -30,7 +30,7 @@ struct ContentView: View {
             }
             CustomTabBar(currentTab: $currentTab)
         }
-        .padding()
+        .ignoresSafeArea(.keyboard)
     }
 }
 
