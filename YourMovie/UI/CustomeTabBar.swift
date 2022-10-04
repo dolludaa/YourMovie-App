@@ -4,13 +4,13 @@ struct CustomTabBar: View {
     @Binding var currentTab: Tab
     
     var backgroundColors: [Color] = [Color("purple"),Color("lightBlue"), Color("pink")]
-//    var gradientCircle: [Color] = [Color("cyan"),Color("cyan").opacity(0.1), Color("cyan")]
+
     
     var body: some View {
         GeometryReader { geometry in
             let width = geometry.size.width
             
-            HStack(spacing: 0.0) {
+            HStack {
                 ForEach(Tab.allCases, id: \.rawValue) { tab in
                     Button {
                         withAnimation(.easeInOut) {
