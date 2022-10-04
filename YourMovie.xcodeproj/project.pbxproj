@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		447A16F028ECE4360022E296 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447A16EF28ECE4360022E296 /* BookingView.swift */; };
 		44973EDA28EA2C330028F54F /* YourMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973ED928EA2C330028F54F /* YourMovieApp.swift */; };
 		44973EDC28EA2C330028F54F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973EDB28EA2C330028F54F /* ContentView.swift */; };
 		44973EDE28EA2C350028F54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44973EDD28EA2C350028F54F /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		447A16EF28ECE4360022E296 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		44973ED628EA2C330028F54F /* YourMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44973ED928EA2C330028F54F /* YourMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourMovieApp.swift; sourceTree = "<group>"; };
 		44973EDB28EA2C330028F54F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				44973ED928EA2C330028F54F /* YourMovieApp.swift */,
 				44973EFF28EA31900028F54F /* TicketView.swift */,
 				44973F0A28ECD99D0028F54F /* HomeView.swift */,
+				447A16EF28ECE4360022E296 /* BookingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				44973EFD28EA311C0028F54F /* utils.swift in Sources */,
 				44973F0328EA39B00028F54F /* Ticket.swift in Sources */,
 				44973EDA28EA2C330028F54F /* YourMovieApp.swift in Sources */,
+				447A16F028ECE4360022E296 /* BookingView.swift in Sources */,
 				44973EFB28EA30DE0028F54F /* RoundButton.swift in Sources */,
 				44973F0B28ECD99D0028F54F /* HomeView.swift in Sources */,
 				44973F0728ECD1EC0028F54F /* TabData.swift in Sources */,
