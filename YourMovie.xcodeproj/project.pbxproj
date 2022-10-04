@@ -23,6 +23,9 @@
 		44973EFD28EA311C0028F54F /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973EFC28EA311C0028F54F /* utils.swift */; };
 		44973F0028EA31900028F54F /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973EFF28EA31900028F54F /* TicketView.swift */; };
 		44973F0328EA39B00028F54F /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0228EA39B00028F54F /* Ticket.swift */; };
+		44973F0528ECC2330028F54F /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0428ECC2330028F54F /* Tickets.swift */; };
+		44973F0728ECD1EC0028F54F /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0628ECD1EC0028F54F /* TabData.swift */; };
+		44973F0928ECD5580028F54F /* CustomeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0828ECD5580028F54F /* CustomeTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		44973EFC28EA311C0028F54F /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		44973EFF28EA31900028F54F /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		44973F0228EA39B00028F54F /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		44973F0428ECC2330028F54F /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		44973F0628ECD1EC0028F54F /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		44973F0828ECD5580028F54F /* CustomeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 			children = (
 				44973EE828EA2EDE0028F54F /* CircleBackground.swift */,
 				44973EEA28EA2F050028F54F /* StatusUI.swift */,
+				44973F0828ECD5580028F54F /* CustomeTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -109,6 +116,7 @@
 			children = (
 				44973EEE28EA30150028F54F /* PosterData.swift */,
 				44973EED28EA30150028F54F /* TicketData.swift */,
+				44973F0628ECD1EC0028F54F /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -139,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				44973F0228EA39B00028F54F /* Ticket.swift */,
+				44973F0428ECC2330028F54F /* Tickets.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -217,14 +226,17 @@
 				44973F0028EA31900028F54F /* TicketView.swift in Sources */,
 				44973EDC28EA2C330028F54F /* ContentView.swift in Sources */,
 				44973EF028EA30150028F54F /* PosterData.swift in Sources */,
+				44973F0528ECC2330028F54F /* Tickets.swift in Sources */,
 				44973EFD28EA311C0028F54F /* utils.swift in Sources */,
 				44973F0328EA39B00028F54F /* Ticket.swift in Sources */,
 				44973EDA28EA2C330028F54F /* YourMovieApp.swift in Sources */,
 				44973EFB28EA30DE0028F54F /* RoundButton.swift in Sources */,
+				44973F0728ECD1EC0028F54F /* TabData.swift in Sources */,
 				44973EF328EA307A0028F54F /* LargeButton.swift in Sources */,
 				44973EF928EA30C30028F54F /* CircleButton.swift in Sources */,
 				44973EEB28EA2F050028F54F /* StatusUI.swift in Sources */,
 				44973EF528EA30930028F54F /* TimeButton.swift in Sources */,
+				44973F0928ECD5580028F54F /* CustomeTabBar.swift in Sources */,
 				44973EEF28EA30150028F54F /* TicketData.swift in Sources */,
 				44973EF728EA30AE0028F54F /* DateButton.swift in Sources */,
 			);

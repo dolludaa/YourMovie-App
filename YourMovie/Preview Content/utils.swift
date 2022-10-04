@@ -2,7 +2,7 @@ import UIKit
 import SwiftUI
 import Foundation
 
-//https://stackoverflow.com/questions/56760335/round-specific-corners-swiftui
+
 struct RoundedCorner: Shape {
     var radius: CGFloat = .infinity
     var corners: UIRectCorner = .allCorners
@@ -26,7 +26,7 @@ extension View {
     }
 }
 
-//https://stackoverflow.com/questions/58526632/swiftui-create-a-single-dashed-line-with-swiftui
+
 struct Line: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
@@ -36,7 +36,7 @@ struct Line: Shape {
     }
 }
 
-//https://rekerrsive.medium.com/three-ways-to-pop-to-the-root-view-in-a-swiftui-navigationview-430aee720c9a
+
 struct NavigationUtil {
     static func popToRootView() {
         findNavigationController(viewController: UIApplication.shared.windows.filter { $0.isKeyWindow }.first?.rootViewController)?
