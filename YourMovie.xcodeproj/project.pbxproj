@@ -28,6 +28,7 @@
 		44973F0928ECD5580028F54F /* CustomeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0828ECD5580028F54F /* CustomeTabBar.swift */; };
 		44973F0B28ECD99D0028F54F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0A28ECD99D0028F54F /* HomeView.swift */; };
 		44973F0D28ECDAAE0028F54F /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0C28ECDAAE0028F54F /* CustomSearchBar.swift */; };
+		44973F0F28ECDDC30028F54F /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44973F0E28ECDDC30028F54F /* ScrollSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		44973F0828ECD5580028F54F /* CustomeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabBar.swift; sourceTree = "<group>"; };
 		44973F0A28ECD99D0028F54F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		44973F0C28ECDAAE0028F54F /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		44973F0E28ECDDC30028F54F /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				44973EEA28EA2F050028F54F /* StatusUI.swift */,
 				44973F0828ECD5580028F54F /* CustomeTabBar.swift */,
 				44973F0C28ECDAAE0028F54F /* CustomSearchBar.swift */,
+				44973F0E28ECDDC30028F54F /* ScrollSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				44973EE928EA2EDE0028F54F /* CircleBackground.swift in Sources */,
 				44973F0028EA31900028F54F /* TicketView.swift in Sources */,
+				44973F0F28ECDDC30028F54F /* ScrollSection.swift in Sources */,
 				44973EDC28EA2C330028F54F /* ContentView.swift in Sources */,
 				44973EF028EA30150028F54F /* PosterData.swift in Sources */,
 				44973F0528ECC2330028F54F /* Tickets.swift in Sources */,
