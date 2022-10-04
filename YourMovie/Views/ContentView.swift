@@ -14,17 +14,8 @@ struct ContentView: View {
                     HomeView()
                         .tag(Tab.home)
                     
-                    Text("Location")
-                        .tag(Tab.location)
-                    
                     TicketView()
                         .tag(Tab.ticket)
-                    
-                    Text("Category")
-                        .tag(Tab.category)
-                    
-                    Text("Profile")
-                        .tag(Tab.profile)
                 }
                 
                 CustomTabBar(currentTab: $currentTab)

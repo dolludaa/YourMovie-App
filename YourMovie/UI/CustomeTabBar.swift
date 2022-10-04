@@ -29,16 +29,19 @@ struct CustomTabBar: View {
             .background(alignment: .leading) {
                 Circle()
                     .fill(.ultraThinMaterial)
-                    .frame(width: 75, height: 80)
+                    .frame(width: 80, height: 80)
                     .shadow(color: .black.opacity(0.25), radius: 20, x: 0, y: 10)
                     .offset(x: indicatorOffset(width: width), y: -17)
+                    .padding(55)
                     .overlay(
                         Circle()
                             .trim(from: 0, to: CGFloat(0.54))
                             .stroke(LinearGradient(colors: [Color.purple.opacity(0.5)], startPoint: .top, endPoint: .bottom), style: StrokeStyle(lineWidth: 2))
                             .rotationEffect(.degrees(135))
                             .frame(width: 78, height: 78)
+
                             .offset(x: indicatorOffset(width: width), y: -17)
+
                 )
             }
         }
@@ -61,14 +64,8 @@ struct CustomTabBar: View {
         switch currentTab {
         case .home:
             return 0
-        case .location:
-            return 1
         case .ticket:
-            return 2
-        case .category:
-            return 3
-        case .profile:
-            return 4
+            return 1
         }
     }
 }
